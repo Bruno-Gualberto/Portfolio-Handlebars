@@ -1,0 +1,14 @@
+<div class="description-container">
+    <main>
+        <h2>{{upperCase name}}</h2>
+        <p>{{description}}</p>
+        <img src="/{{directory}}/screenshot.jpg">
+        <p>{{fullDescription}}</p>
+        <a href="/{{directory}}" target="_blank"><button>{{upperCase "get to the project"}}</button></a>
+    </main>
+
+    <nav class="nav-description">
+        <h3>{{upperCase "my projects"}}</h3>
+        {{>projectsLoop currDir=directory emoji=true}}
+    </nav>
+</div>

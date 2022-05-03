@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Spotify API Search</title>
+    </head>
+    <body>
+        <h1>Spotify Search</h1>
+        <div class="search-fields">
+            <input type="text">
+            <select>
+                <option value="artist">Artist</option>
+                <option value="album">Album</option>
+            </select>
+            <button class="submit-button">SUBMIT</button>
+        </div>
+        <div class="results-container"></div>
+        <script id="results" type="text/x-handlebars-template">
+            {{#items}}
+            <div class="result-item">
+                <a href="{{#external_urls}}{{spotify}}{{/external_urls}}" target="_blank">
+                    <img src="{{images.0.url}}" />
+                </a>
+                <a href="{{#external_urls}}{{spotify}}{{/external_urls}}" target="_blank">
+                    <div>{{name}}</div>
+                </a>
+            </div>
+            {{/items}}
+        </script>
+        <button class="more-button hidden">MORE</button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

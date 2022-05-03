@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Connect Four",
+        "directory": "connect-four",
+        "description": "A 2 player game. Your goal it's to ruin your rivals game. Great to end friendships.",
+        "fullDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "emoji": "🎮"
+    },
+    {
+        "name": "Kitten Carousel",
+        "directory": "kitten-carousel",
+        "description": "Do you want to see cat pictures? What am I asking, of course you do. Click!",
+        "fullDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "emoji": "🐱"
+    },
+    {
+        "name": "Spotify Search",
+        "directory": "spotify-search",
+        "description": "Check if your favourite album or artist ir's on Spotify! What is this for? No idea, but it works!",
+        "fullDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "emoji": "🔍"
+    },
+    {
+        "name": "First Web Page",
+        "directory": "firstWebPage",
+        "description": "My first-born. I don't care what you think, it's beautiful and functional.",
+        "fullDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "emoji": "🌱"
+    },
+    {
+        "name": "Donut Race",
+        "directory": "donutRace",
+        "description": "Did you watched Wreck-it Ralph? It looks like Venellope's game, but nothing like it. Have a try!",
+        "fullDescription": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "emoji": "🍩"
+    }
+]

@@ -1,0 +1,22 @@
+{{#projects}}
+    <div class="project-loop-container {{addClass ../currDir directory}}">
+        {{#if ../image}}
+            <img src="/{{directory}}/screenshot.jpg">
+        {{/if}}
+
+        {{#if ../emoji}}
+            <p>
+                {{emoji}}
+                <a href="/projects/{{directory}}">
+                    {{name}}
+                </a>
+            </p>
+        {{else}}
+            <div class="loop-chart">
+                <h4>{{name}}</h4>
+                <p>{{description}}</p>
+                <a href="/projects/{{directory}}"><button>{{upperCase "see more"}}</button></a>
+            </div>
+        {{/if}}
+    </div>
+{{/projects}}
